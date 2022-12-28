@@ -1,0 +1,13 @@
+{{ define "body" }}
+
+<h1 class="text-xl font-bold">Hello World</h1>
+
+{{ block "list" .List }}
+<ul>
+  {{ range $element := . }}
+  <li class="text-sm">{{ $element }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ end }}

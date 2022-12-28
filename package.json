@@ -1,0 +1,14 @@
+{
+  "name": "go-web-template",
+  "version": "1.0.0",
+  "scripts": {
+    "tailwind:build:debug": "npx tailwindcss -i ./tailwind.css -o ./style.css",
+    "tailwind:build:release": "npx tailwindcss -m -i ./tailwind.css -o ./style.css",
+    "tailwind:build:watch": "npx tailwindcss -i ./tailwind.css -o ./style.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.7",
+    "tailwindcss": "^3.2.1"
+  }
+}
