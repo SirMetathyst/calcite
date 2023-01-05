@@ -57,7 +57,7 @@ func main() {
 	}()
 
 	if err := srv.Shutdown(ctx); err != nil {
-		log.Fatalf("err: %s\n", err)
+		log.Printf("err: %s\n", err)
 	}
 
 	log.Println("Server Stopped")
